@@ -7,7 +7,7 @@ $db="db";
 
 $conn=mysqli_connect($host,$user,$password,$db);
 
-$insert="insert into user value()";
+
 
 if($conn){
     echo "connected successfully";
