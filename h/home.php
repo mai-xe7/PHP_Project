@@ -17,14 +17,11 @@
 
  </head>   
  <body>
-
-
-<h2> welcome 
-
+  
+<h2> welcome </h2>
     <?php
- echo "amr" ;
+ echo $_SESSION['name'] ;
   ?>
-
 </h2>
 
 
