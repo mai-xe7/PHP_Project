@@ -34,6 +34,8 @@
 
     <?php
 
+
+
        session_start();
 
 
@@ -41,11 +43,11 @@
 
        include 'connection.php';
 
-       $name=$_POST['Username'];
+       $name=$_POST['username'];
        $email=$_POST['email'];
-       $password=$_POST['Password'];
+       $password=$_POST['pass'];
 
-       $insert="insert into user(Username,email,Password) values('$name','$email','$password')";
+       $insert="insert into user(username,email,pass) values('$name','$email','$password')";
 
        # to perform the query above 
 
