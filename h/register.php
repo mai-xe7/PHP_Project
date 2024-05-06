@@ -94,16 +94,16 @@
 
               <lable class="l"> Registration</lable><br>
 
-              <lable for="username"> User_Name : </lable> <br>
-              <input type="text" placeholder="User Name"  name="username" required><br>
+              <lable for="Username"> User_Name : </lable> <br>
+              <input type="text" placeholder="User Name"  name="Username" required><br>
               <br>
               <br>
               <lable for="email"> Email : </lable> <br>
               <input type="email" placeholder="Email"  name="email" required><br>
               <br>
               <br>
-              <lable for="pass"> Password : </lable><br>
-              <input type="password" placeholder="Password"  name="pass" required><br>
+              <lable for="Password"> Password : </lable><br>
+              <input type="password" placeholder="Password"  name="Password" required><br>
               <br>
               <br>
               <button type=" submit " name="register">Register</button>
