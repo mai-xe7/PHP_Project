@@ -7,9 +7,9 @@
 
        include 'connection.php';
 
-       $name=$_POST['username'];
+       $name=$_POST['Username'];
        $email=$_POST['email'];
-       $password=$_POST['pass'];
+       $password=$_POST['Password'];
 
        $sql = "insert into
         `user` (`Username`, `email`, `Password`)
@@ -22,7 +22,7 @@
        if($query){
         echo " Registrated !!";
         #go to home code 
-        $_SESSION['username']=$name;    # to make in page in my web access to this value 
+        $_SESSION['Username']=$name;    # to make in page in my web access to this value 
         header('location:home.php');
        }
        else{
