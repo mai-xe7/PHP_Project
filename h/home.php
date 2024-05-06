@@ -20,7 +20,7 @@
   
 <h2> welcome </h2>
     <?php
- echo $_SESSION['name'] ;
+ echo $_SESSION['username'] ;
   ?>
 </h2>
 
